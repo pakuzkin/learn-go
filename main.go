@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	mypackage "github.com/pakuzkin/learn-go/mymodule"
+)
 
 func main() {
-	fmt.Println("Hello Go")
+	fmt.Println("Hello, Modules!")
 
+	mypackage.PrintHello()
 }
