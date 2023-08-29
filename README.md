@@ -44,3 +44,14 @@ Delete 5th element from slice `s`
 newSlice := append(s[:5], s[6:]...)
 ```
 
+### Map
+
+```an := make(map[string]int)```
+
+```
+	myMap := map[string]int{
+		"Todd":   42,
+		"Henry":  16,
+		"Padget": 14,
+	}
+```
