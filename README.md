@@ -67,3 +67,59 @@ newSlice := append(s[:5], s[6:]...)
         age   int
     }
 ```
+
+
+### Functions
+
+```
+func dogYears(name string, age int) (string, int) {
+	age *= 7
+	return fmt.Sprint(name, " is this old in dog years "), age
+}
+```
+
+### Methods 
+
+```
+// Define a struct named 'Rectangle'
+type Rectangle struct {
+    Width  float64
+    Height float64
+}
+
+// Define a method for the 'Rectangle' type
+func (r Rectangle) Area() float64 {
+    return r.Width * r.Height
+}
+```
+
+
+### I/O
+
+Read
+```
+file, err := os.Open(filename)
+if err != nil {
+    fmt.Println("Error opening file:", err)
+    return
+}
+defer file.Close()
+```
+
+Write
+```
+func main() {
+	f, err := os.Create("output.txt")
+	if err != nil {
+		log.Fatalf("error %s", err)
+	}
+	defer f.Close()
+
+	s := []byte("Hello gophers!")
+
+	_, err = f.Write(s)
+	if err != nil {
+		log.Fatalf("error %s", err)
+	}
+}
+```
