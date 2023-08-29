@@ -46,7 +46,9 @@ newSlice := append(s[:5], s[6:]...)
 
 ### Map
 
-```an := make(map[string]int)```
+```
+    an := make(map[string]int)
+```
 
 ```
 	myMap := map[string]int{
