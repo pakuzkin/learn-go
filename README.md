@@ -3,9 +3,9 @@ https://pkg.go.dev/fmt#pkg-overview
 
 ### Vars
 
-var intArray [5]int // declare int arr of size 5
+`var intArray [5]int` // declare int arr of size 5
 
-aSlice := make([]string, 10) // dynamic arr aka slice
+`aSlice := make([]string, 10)` // dynamic arr aka slice
 
 ### Loop
 
