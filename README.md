@@ -37,4 +37,10 @@ func copyArr(x []float64) []float64 {
 }
 ```
 
+### Delete from arr
+
+Delete 5th element from arr
+```
+newArr := append(arr[:5], arr[6:]...)
+```
 
