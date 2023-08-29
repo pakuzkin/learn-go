@@ -57,3 +57,13 @@ newSlice := append(s[:5], s[6:]...)
         "Padget": 14,
     }
 ```
+
+### Structures
+
+```
+    type person struct {
+        first string
+        last  string
+        age   int
+    }
+```
