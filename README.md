@@ -27,7 +27,7 @@ for condition {
 }
 ```
 
-### Copy array
+### Copy slice
 
 ```
 func copyArr(x []float64) []float64 {
@@ -37,10 +37,10 @@ func copyArr(x []float64) []float64 {
 }
 ```
 
-### Delete from arr
+### Delete from slice
 
-Delete 5th element from arr
+Delete 5th element from slice `s`
 ```
-newArr := append(arr[:5], arr[6:]...)
+newSlice := append(s[:5], s[6:]...)
 ```
 
