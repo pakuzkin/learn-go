@@ -4,6 +4,7 @@ https://pkg.go.dev/fmt#pkg-overview
 ### Vars
 
 var intArray [5]int // declare int arr of size 5
+
 aSlice := make([]string, 10) // dynamic arr aka slice
 
 ### Loop
@@ -22,9 +23,12 @@ for condition {
 
 ### Copy array
 
+```
 func copyArr(x []float64) []float64 {
 	myCopy := make([]float64, len(x))
 	copy(myCopy, x)
 	return myCopy
 }
+```
+
 
