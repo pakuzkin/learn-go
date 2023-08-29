@@ -9,17 +9,23 @@ aSlice := make([]string, 10) // dynamic arr aka slice
 
 ### Loop
 
+```
 for i := 0; i < 5; i++ {
     // Loop body
 }
+```
 
+```
 for index, value := range collection {
     // Loop body
 }
+```
 
+```
 for condition {
     // While body
 }
+```
 
 ### Copy array
 
