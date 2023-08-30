@@ -94,7 +94,12 @@ func (r Rectangle) Area() float64 {
 ```
 
 ### Pointers
-`&` the address of a variable, `*` the value at an address
+
+`&` the address of a variable, `*` the value at an address.
+
+Values that are not refed by memory go to the stack. Referenced values go to the heap
+
+
 ```
 y := &x // y is a pointer to the memory address of x
 fmt.Println("*y:", *y) // Dereferencing the pointer
