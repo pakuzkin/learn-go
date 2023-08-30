@@ -93,6 +93,13 @@ func (r Rectangle) Area() float64 {
 }
 ```
 
+### Pointers
+`&` the address of a variable, `*` the value at an address
+```
+y := &x // y is a pointer to the memory address of x
+fmt.Println("*y:", *y) // Dereferencing the pointer
+```
+
 
 ### I/O
 
