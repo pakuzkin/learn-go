@@ -52,7 +52,8 @@ func toJsonString() {
 	}
 
 	var jsonData []byte
-	jsonData, err := json.MarshalIndent(basket, "", "    ") // json.Marshal(basket)
+	// jsonData, err := json.Marshal(basket)
+	jsonData, err := json.MarshalIndent(basket, "", "    ")
 
 	if err != nil {
 		log.Println(err)
