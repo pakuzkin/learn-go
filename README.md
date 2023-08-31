@@ -105,6 +105,12 @@ y := &x // y is a pointer to the memory address of x
 fmt.Println("*y:", *y) // Dereferencing the pointer
 ```
 
+### Channels
+
+`<-chan int` send only aka read only 
+
+`chan<- int` recieve only aka write only
+
 
 ### I/O
 
